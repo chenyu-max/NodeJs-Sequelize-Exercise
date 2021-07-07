@@ -1,23 +1,23 @@
 const sequelize = require("./db");
-const { DataTypes } = require("sequelize");
+const {DataTypes} = require("sequelize");
 const Student = require("./Student");
 const Class = sequelize.define(
-  "Class",
-  {
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
+    "Class",
+    {
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        openDate: {
+            type: DataTypes.DATE,
+            allowNull: false,
+        },
     },
-    openDate: {
-      type: DataTypes.DATE,
-      allowNull: false,
-    },
-  },
-  {
-    createdAt: false,
-    updatedAt: false,
-    paranoid: true,
-  }
+    {
+        createdAt: false,
+        updatedAt: false,
+        paranoid: true,
+    }
 );
 
 Class.hasMany(Student);
