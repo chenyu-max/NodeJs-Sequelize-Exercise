@@ -1,0 +1,26 @@
+{
+  "name": "sequelize-exerise",
+  "version": "1.0.0",
+  "description": "NodeJS MySql 数据库 Sequelize 练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenyu-max/NodeJs-Sequelize-Exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenyu-max/NodeJs-Sequelize-Exercise/issues"
+  },
+  "homepage": "https://github.com/chenyu-max/NodeJs-Sequelize-Exercise#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0"
+  }
+}
