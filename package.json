@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/chenyu-max/NodeJs-Sequelize-Exercise#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
     "mockjs": "^1.1.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
