@@ -19,9 +19,13 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
+    "log4js": "^6.3.0",
+    "md5": "^2.3.0",
     "mockjs": "^1.1.0",
+    "moment": "^2.29.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.6.5"
+    "sequelize": "^6.6.5",
+    "validate.js": "^0.13.1"
   },
   "devDependencies": {
     "@types/node": "^16.0.0"
