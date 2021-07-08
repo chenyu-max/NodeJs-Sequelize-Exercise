@@ -1,1 +1,2 @@
-require("./models/sync");
+require("./models/relation");
+require('./spider/fetchBooks');
